@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.scottehboeh.glc.forms.Form_Main">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="536" height="622"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="d7b35" binding="toolbarMain">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <borderPainted value="true"/>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="cfe6c" class="javax.swing.JLabel" binding="lblProgramTitle">
+            <constraints/>
+            <properties>
+              <text value="Glencaldy Learning Centre"/>
+            </properties>
+          </component>
+          <component id="6fef0" class="javax.swing.JToolBar$Separator" binding="toolbarSplitter">
+            <constraints/>
+            <properties>
+              <separatorSize width="50" height="10"/>
+            </properties>
+          </component>
+          <component id="3d462" class="javax.swing.JLabel" binding="lblSessionStatus">
+            <constraints/>
+            <properties>
+              <foreground color="-65536"/>
+              <text value="Session Status Unknown"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="17d54" class="javax.swing.JToolBar$Separator" binding="toolbarSplitter2">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="c19c1" class="javax.swing.JButton" binding="btnSession">
+            <constraints/>
+            <properties>
+              <text value="Log In"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <tabbedpane id="8209e" binding="tabMain">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a2984" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Main Menu"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="aa3df" class="javax.swing.JLabel" binding="lblTab_MainMenu_Message">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Welcome to Glencaldy Learning Centre! From here, you can chose from a wide range of Options!"/>
+                </properties>
+              </component>
+              <component id="63e48" class="javax.swing.JLabel" binding="lblTab_MainMenu_Title">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <text value="Main Menu:"/>
+                </properties>
+              </component>
+              <grid id="4064e" binding="panelImage" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="57eb3" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="My Profile"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1ac6f" class="javax.swing.JLabel" binding="lblTab_Profile_Title">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <text value="My Profile:"/>
+                </properties>
+              </component>
+              <component id="aadec" class="javax.swing.JLabel" binding="lblTab_Profile_Message">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Your personal Profile Information:"/>
+                </properties>
+              </component>
+              <component id="2ab6e" class="javax.swing.JLabel" binding="lblProfileUsername">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Username: "/>
+                </properties>
+              </component>
+              <component id="5f512" class="javax.swing.JLabel" binding="lblProfileEmail">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Email Address:"/>
+                </properties>
+              </component>
+              <grid id="27bbb" binding="panelStaffUtilities" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="bed5f" class="javax.swing.JLabel" binding="lblStaffUtilities_Title">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font style="1"/>
+                      <text value="Staff Utilities:"/>
+                    </properties>
+                  </component>
+                  <vspacer id="8e295">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="a5634" class="javax.swing.JLabel" binding="lblStaffOption_CreateUser">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Create a New User"/>
+                    </properties>
+                  </component>
+                  <component id="f3683" class="javax.swing.JButton" binding="btnStaffOption_CreateUser">
+                    <constraints>
+                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Create a New User"/>
+                    </properties>
+                  </component>
+                  <component id="43952" class="javax.swing.JLabel" binding="lblStaffOption_ManageUsers">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Manage Users:"/>
+                    </properties>
+                  </component>
+                  <component id="6d173" class="javax.swing.JButton" binding="btnStaffOption_ManageUsers">
+                    <constraints>
+                      <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Manage Users"/>
+                    </properties>
+                  </component>
+                  <component id="b8906" class="javax.swing.JLabel" binding="lblCreateNewStock">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Create New Stock Item"/>
+                    </properties>
+                  </component>
+                  <component id="c37f1" class="javax.swing.JButton" binding="btnCreateNewStock">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Create Book Stock Item"/>
+                    </properties>
+                  </component>
+                  <component id="d42db" class="javax.swing.JButton" binding="btnCreateNewVideoStock">
+                    <constraints>
+                      <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Create Video Stock Item"/>
+                    </properties>
+                  </component>
+                  <component id="d2056" class="javax.swing.JButton" binding="btnCreateNewJournalStock">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Create Journal Stock Item"/>
+                    </properties>
+                  </component>
+                  <component id="639c6" class="javax.swing.JButton" binding="btnCreateNewCDStock">
+                    <constraints>
+                      <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Create CD Stock Item"/>
+                    </properties>
+                  </component>
+                  <component id="b93a2" class="javax.swing.JLabel" binding="lblStaffOption_ManageLoans">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Manage Loans:"/>
+                    </properties>
+                  </component>
+                  <component id="b6b46" class="javax.swing.JButton" binding="btnStaffOption_ManageLoans">
+                    <constraints>
+                      <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Manage Loans"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <vspacer id="7725b">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <maximum-size width="-1" height="20"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+              <vspacer id="41c1d">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="eb7b8" class="javax.swing.JButton" binding="btnProfile_MyBorrowedStock">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="View My Borrowed Items"/>
+                </properties>
+              </component>
+              <component id="9da73" class="javax.swing.JLabel" binding="lblTab_Profile_Rank">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="User Rank:"/>
+                </properties>
+              </component>
+              <component id="4a5c1" class="javax.swing.JButton" binding="btnProfile_EditMyUser">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Edit Profile"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="539bf" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Catalogue"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4e25" class="javax.swing.JLabel" binding="lblTab_Catalogue_Title">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <text value="Catalogue:"/>
+                </properties>
+              </component>
+              <tabbedpane id="2cba6" binding="tabCatalogue">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="cea9e" binding="tabcatalogueVideo" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Videos"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="41dd2" class="javax.swing.JLabel" binding="lblVideo_ID">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Video ID:"/>
+                        </properties>
+                      </component>
+                      <component id="8c8ea" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="2eca" class="javax.swing.JLabel" binding="lblVideo_Format">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Video Format"/>
+                        </properties>
+                      </component>
+                      <component id="5952d" class="javax.swing.JLabel" binding="lblVideo_StorageType">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Video Storage Type"/>
+                        </properties>
+                      </component>
+                      <component id="60d4a" class="javax.swing.JLabel" binding="lblVideo_Publisher">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Video Publisher"/>
+                        </properties>
+                      </component>
+                      <component id="c3d26" class="javax.swing.JLabel" binding="lblVideo_Genre">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Video Genre"/>
+                        </properties>
+                      </component>
+                      <component id="fde50" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="b1f5f" class="javax.swing.JLabel" binding="lblVideo_Title">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Video Title:"/>
+                        </properties>
+                      </component>
+                      <component id="4c4f1" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="dd6c" binding="tabcatalogueCompactDisk" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Compact Discs"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="b1e04" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="ef256" class="javax.swing.JLabel" binding="lblDisc_Artist">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Disc Artist:"/>
+                        </properties>
+                      </component>
+                      <component id="7cc46" class="javax.swing.JLabel" binding="lblDisc_Publisher">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Disc Publisher:"/>
+                        </properties>
+                      </component>
+                      <component id="9584f" class="javax.swing.JLabel" binding="lblDisc_Tracks">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Disc Tracks:"/>
+                        </properties>
+                      </component>
+                      <component id="df7ab" class="javax.swing.JLabel" binding="lblDisc_CaseType">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Disc Case Type:"/>
+                        </properties>
+                      </component>
+                      <component id="96353" class="javax.swing.JLabel" binding="lblDisc_ID">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Disc ID:"/>
+                        </properties>
+                      </component>
+                      <component id="79a39" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="510df" class="javax.swing.JLabel" binding="lblDisc_Name">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Disc Title:"/>
+                        </properties>
+                      </component>
+                      <component id="227d8" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="c009e" binding="tabcatalogueJournals" layout-manager="GridLayoutManager" row-count="11" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Journals"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="1419b" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="2f2cb" class="javax.swing.JLabel" binding="lblJournal_ID">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Journal ID: "/>
+                        </properties>
+                      </component>
+                      <component id="673e" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="7b2fd" class="javax.swing.JLabel" binding="lblJournal_Name">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Journal Name:"/>
+                        </properties>
+                      </component>
+                      <component id="7a534" class="javax.swing.JLabel" binding="lblJournal_Issue">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Journal Issue:"/>
+                        </properties>
+                      </component>
+                      <component id="87337" class="javax.swing.JLabel" binding="lblJournal_Date">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Journal Publish Date:"/>
+                        </properties>
+                      </component>
+                      <component id="4f228" class="javax.swing.JLabel" binding="lblJournal_ISSN">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Journal ISSN:"/>
+                        </properties>
+                      </component>
+                      <component id="c7596" class="javax.swing.JLabel" binding="lblJournal_SubArea">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Journal Subject Area:"/>
+                        </properties>
+                      </component>
+                      <component id="ca68e" class="javax.swing.JLabel" binding="lblJournal_Publisher">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Journal Publisher:"/>
+                        </properties>
+                      </component>
+                      <component id="37418" class="javax.swing.JLabel" binding="lblJournal_NumberOfPages">
+                        <constraints>
+                          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Journal Page Count:"/>
+                        </properties>
+                      </component>
+                      <component id="eb732" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="b9d48" binding="tabcatalogueBooks" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Books"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="d66a3" class="javax.swing.JLabel" binding="lblBook_ID">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Book ID:"/>
+                        </properties>
+                      </component>
+                      <component id="901b" class="javax.swing.JLabel" binding="lblBook_Title">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Book Title:"/>
+                        </properties>
+                      </component>
+                      <component id="818de" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="21d0d" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                      <component id="4247" class="javax.swing.JLabel" binding="lblBook_Author">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Book Author:"/>
+                        </properties>
+                      </component>
+                      <component id="e3716" class="javax.swing.JLabel" binding="lblBook_SubjectArea">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Book Subject Area:"/>
+                        </properties>
+                      </component>
+                      <component id="e9371" class="javax.swing.JLabel" binding="lblBook_Publisher">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Book Publisher:"/>
+                        </properties>
+                      </component>
+                      <component id="1ccbd" class="javax.swing.JLabel" binding="lblBook_PageCount">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Book Page Count:"/>
+                        </properties>
+                      </component>
+                      <component id="9d67f" class="javax.swing.JToolBar$Separator">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+              <component id="b60b1" class="javax.swing.JLabel" binding="lblTab_Catalogue_Message">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Official Glencaldy Catalogue:"/>
+                </properties>
+              </component>
+              <component id="768a9" class="javax.swing.JButton" binding="btnVideo_Previous">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="&lt;"/>
+                </properties>
+              </component>
+              <component id="4b846" class="javax.swing.JButton" binding="btnVideo_Next">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="&gt;"/>
+                </properties>
+              </component>
+              <component id="7587b" class="javax.swing.JButton" binding="btnBorrowStock">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Borrow Item"/>
+                </properties>
+              </component>
+              <component id="8f9fb" class="javax.swing.JLabel" binding="lblStockStatus">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Unknown Status"/>
+                </properties>
+              </component>
+              <component id="da28b" class="javax.swing.JLabel" binding="lblIndexHelp">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Index:"/>
+                </properties>
+              </component>
+              <component id="60319" class="javax.swing.JLabel" binding="lblCost">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Unknown"/>
+                </properties>
+              </component>
+              <component id="9dff4" class="javax.swing.JLabel" binding="lblSearch">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Search:"/>
+                </properties>
+              </component>
+              <component id="566ca" class="javax.swing.JTextField" binding="txtSearch">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="eee96" class="javax.swing.JButton" binding="btnRefresh">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Refresh"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

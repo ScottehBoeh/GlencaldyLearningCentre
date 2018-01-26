@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.scottehboeh.glc.forms.Form_MyBorrowedStock">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="390" height="267"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="5e8ee" class="javax.swing.JLabel" binding="lblStockID">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stock ID:"/>
+        </properties>
+      </component>
+      <component id="8b0b4" class="javax.swing.JLabel" binding="lblStockName">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stock Name:"/>
+        </properties>
+      </component>
+      <component id="9320" class="javax.swing.JLabel" binding="lblStockType">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stock Type:"/>
+        </properties>
+      </component>
+      <component id="c5a60" class="javax.swing.JButton" binding="btnReturn">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Return This Item"/>
+        </properties>
+      </component>
+      <component id="5219a" class="javax.swing.JLabel" binding="lblStockDate">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stock Loan Date:"/>
+        </properties>
+      </component>
+      <component id="d0a19" class="javax.swing.JButton" binding="btnNext">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&gt;"/>
+        </properties>
+      </component>
+      <component id="6d4fa" class="javax.swing.JButton" binding="btnPrevious">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

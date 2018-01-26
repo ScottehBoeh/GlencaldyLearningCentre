@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.scottehboeh.glc.forms.Form_ManageUsers">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="424" height="269"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="88db4" class="javax.swing.JLabel" binding="lblTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Manage Users:"/>
+        </properties>
+      </component>
+      <component id="d98af" class="javax.swing.JComboBox" binding="comboBox">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="ab1e6">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="63077" class="javax.swing.JLabel" binding="lblCurrent_Username">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Username:"/>
+        </properties>
+      </component>
+      <component id="fbaba" class="javax.swing.JLabel" binding="lblCurrent_Email">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Email Address:"/>
+        </properties>
+      </component>
+      <component id="3640f" class="javax.swing.JLabel" binding="lblCurrent_Address">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Address:"/>
+        </properties>
+      </component>
+      <component id="b7ade" class="javax.swing.JLabel" binding="lblCurrent_Password">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Password:"/>
+        </properties>
+      </component>
+      <component id="d085b" class="javax.swing.JLabel" binding="lblCurrent_UUID">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="UUID:"/>
+        </properties>
+      </component>
+      <component id="1610e" class="javax.swing.JLabel" binding="lblCurrentText_Username">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="UNKNOWN"/>
+        </properties>
+      </component>
+      <component id="1e489" class="javax.swing.JLabel" binding="lblCurrentText_Email">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="UNKNOWN"/>
+        </properties>
+      </component>
+      <component id="eb720" class="javax.swing.JLabel" binding="lblCurrentText_Address">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="UNKNOWN"/>
+        </properties>
+      </component>
+      <component id="c73b4" class="javax.swing.JLabel" binding="lblCurrentText_Password">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="UNKNOWN"/>
+        </properties>
+      </component>
+      <component id="2582f" class="javax.swing.JLabel" binding="lblCurrentText_UUID">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="UNKNOWN"/>
+        </properties>
+      </component>
+      <component id="f2cf7" class="javax.swing.JButton" binding="btnDeleteUser">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete User"/>
+        </properties>
+      </component>
+      <component id="f5f71" class="javax.swing.JButton" binding="btnEditUser">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Edit User"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
